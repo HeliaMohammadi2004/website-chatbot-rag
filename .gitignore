@@ -1,0 +1,50 @@
+# محیط مجازی
+venv/
+env/
+ENV/
+.venv
+
+# فایل‌های کامپایل شده پایتون
+__pycache__/
+*.py[cod]
+*.so
+
+# لاگ‌ها و دیتابیس‌های محلی (ChromaDB)
+chroma_data/
+*.db
+*.sqlite3
+
+# فایل‌های محیطی و توکن‌ها
+.env
+.secrets
+streamlit/secrets.toml
+
+# کش استریم‌لیت
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# فایل‌های لاگ و لاک
+*.log
+*.pid
+
+# فایل‌های IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# خروجی کراول (اختیاری)
+output/
+data/
+
+# فایل‌های مخصوص ویندوز / مک
+Thumbs.db
+Desktop.ini
+
+# سایر
+*.pyc
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
